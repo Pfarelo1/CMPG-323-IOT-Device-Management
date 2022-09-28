@@ -16,7 +16,7 @@ namespace DeviceManagement_WebApp.Controllers
 
         public CategoriesController(ConnectedOfficeContext context)
         {
-            _context = context;
+            _context  = context;
         }
 
         // GET: Categories
